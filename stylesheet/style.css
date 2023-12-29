@@ -72,12 +72,12 @@ p {
 
 .about-paragraphs {
   display: flex;
-  margin: 30px 0;
+  /*margin: 30px 0;*/
 }
 
-.about-paragraphs p {
+/*.about-paragraphs p {
   margin: 10px;
-}
+}*/
 
 .email-link {
   display: flex;
@@ -100,4 +100,40 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h3 {
+    font-size: 20px;
+    opacity: 0.7;
+  }
+
+  .hero-intro {
+    padding-bottom: 5px;
+  }
+
+  .hero-title {
+    font-size: 60px;
+    padding-bottom: 5px;
+  }
+
+  .hero-subtitle {
+    padding-bottom: 5px;
+  }
+
+  .secondary-title {
+    padding-top: 20px;
+  }
+
+  .email-link {
+    font-size: 20px;
+  }
 }
